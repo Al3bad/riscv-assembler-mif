@@ -21,10 +21,10 @@ source .venv\scripts\activate
 pip install -r requirements.txt
 ```
 
-- Copy `.venv/convert.py` to `.venv/Lib/site-packages/riscv_assembler` folder. You can either do it through the file explorer or running this command from the root of the project:
+- Copy `py-files/convert.py` to `.venv/Lib/site-packages/riscv_assembler` folder. You can either do it through the file explorer or running this command from the root of the project:
 
 ```bash
-cp -f .venv/conver.py .venv/Lib/site-packages/riscv_assembler/.
+cp -f py-files/conver.py .venv/Lib/site-packages/riscv_assembler/.
 ```
 
 ## Usage
