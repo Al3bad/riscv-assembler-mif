@@ -46,7 +46,7 @@ for i in range(numOfLines):
     f.write("\t%s : %s;\n" % (address, instruction))
 
 if numOfLines != DEPTH:
-    f.write("\t[%s..%s] : 000000;\n" % (hex(numOfLines), hex(DEPTH - 1)))
+    f.write("\t[%s..%s] : 000000;\n" % (hex(numOfLines).split("x")[1], hex(DEPTH - 1).split("x")[1]))
 
 f.write("END;\n")
 f.close()
